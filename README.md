@@ -7,8 +7,8 @@
 ## Installation
 Should prefer installing via NPM:
 
-```bash 
-$ npm install react-timezone
+```bash
+$ npm install react-timezone-click
 ```
 
 The UMD builds can be found in `build` directory if you ever need them.
@@ -32,14 +32,14 @@ You can use `disabled` prop to disable the input.
 Timezones are ~~stolen~~borrowed from Google Calendar.
 
 For now the component expects the value to be in the format of object values in `src/timezones.json`
-file and that is the retured value from component. 
+file and that is the retured value from component.
 
 ## Example
 ```javascript
 import TimezonePicker from 'react-timezone';
 
 export default () => (
-  <TimezonePicker 
+  <TimezonePicker
     defaultValue="Asia/Yerevan"
     onChange={timezone => console.log('New Timezone Selected:', timezone)}
     inputProps={{

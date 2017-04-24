@@ -52,7 +52,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -268,7 +268,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	              {
 	                key: index,
 	                title: zone,
-	                onMouseDown: function onMouseDown() {
+	                onClick: function onClick() {
 	                  return _this3.handleSelect(index);
 	                },
 	                className: (0, _classnames2.default)('timezone-picker-list-item', { 'timezone-picker-list-item-active': focused })
@@ -302,15 +302,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	  inputProps: {},
 	  timezones: __webpack_require__(7) };
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 	  Copyright (c) 2016 Jed Watson.
@@ -362,9 +362,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}());
 
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
@@ -388,9 +388,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 4 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
 	// imports
@@ -402,9 +402,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 5 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*
 		MIT License http://www.opensource.org/licenses/mit-license.php
@@ -458,9 +458,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 
-/***/ },
+/***/ }),
 /* 6 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/*
 		MIT License http://www.opensource.org/licenses/mit-license.php
@@ -710,9 +710,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 
-/***/ },
+/***/ }),
 /* 7 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	module.exports = {
 		"(GMT-11:00) Niue": "Pacific/Niue",
@@ -967,7 +967,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		"(GMT+14:00) Kiritimati": "Pacific/Kiritimati"
 	};
 
-/***/ }
+/***/ })
 /******/ ])
 });
 ;

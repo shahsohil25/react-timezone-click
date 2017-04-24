@@ -140,7 +140,7 @@ export default class TimezonePicker extends React.Component {
                 <li
                   key={index}
                   title={zone}
-                  onMouseDown={() => this.handleSelect(index)}
+                  onClick={() => this.handleSelect(index)}
                   className={
                     classNames('timezone-picker-list-item',
                       { 'timezone-picker-list-item-active': focused }

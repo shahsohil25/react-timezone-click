@@ -1,12 +1,12 @@
 {
-  "name": "react-timezone",
+  "name": "react-timezone-click",
   "version": "0.2.0",
   "description": "React timezone picker",
   "main": "build/react-timezone.min.js",
   "scripts": {
     "build": "webpack && webpack -p --minify",
     "lint": "eslint webpack.config.js src",
-    "prepublish": "npm run lint && npm run build"
+    "prepublish": "npm run build"
   },
   "author": "Vahagn Aharonian <vahagn.aharonian@gmail.com>",
   "license": "MIT",
